@@ -8,7 +8,7 @@ form.addEventListener('submit', function(e) {
     e.preventDefault();
 
     //get input value
-    const birthdateString = birthdateInput.ariaValueMax;
+    const birthdateString = birthdateInput.value;
 
     //validate input with regex
     const dateRegex = /^\d{2}\/\d{2}\/\d{4}$/;
